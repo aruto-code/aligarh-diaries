@@ -7,6 +7,7 @@ import News from "./Components/News";
 import Tourism from "./Components/Tourism";
 import "./App.css";
 import Dashboard from "./Components/Dashboard";
+import ComingSoon from "./Components/ComingSoon";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route exact path="/news" element={<News />}></Route>
           <Route exact path="/tourism" element={<Tourism />}></Route>
           <Route exact path="/dashboard" element={<Dashboard />}></Route>
+          <Route exact path="/comingsoon" element={<ComingSoon />}></Route>
         </Routes>
       </BrowserRouter>
       <hr color="#fff" />
