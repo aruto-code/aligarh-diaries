@@ -4,7 +4,9 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import Feedback from "./Components/Feedback";
 import News from "./Components/News";
+import Tourism from "./Components/Tourism";
 import "./App.css";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
           <Route exact path="/about" element={<About />}></Route>
           <Route exact path="/feedback" element={<Feedback />}></Route>
           <Route exact path="/news" element={<News />}></Route>
+          <Route exact path="/tourism" element={<Tourism />}></Route>
         </Routes>
       </BrowserRouter>
       <hr style={{ color: "#9c9c9c" }} />
