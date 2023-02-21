@@ -8,53 +8,41 @@ function About() {
   return (
     <>
       <Navbar />
-      <h1>About Me</h1>
+      <h1 style={{ color: "white" }}>About Aligarh</h1>
       <div className="about">
-        I am a Computer Engineering undergraduate from the Zakir Husain College
-        of Engineering and Technology, Aligarh Muslim University. I am
-        passionate about software development and have worked on several
-        projects involving web development, application development, and other
-        software-related solutions. I am an Open Source Enthusiast and am now
-        leading the&nbsp;
-        <Link
-          to="https://gdsc.community.dev/zakir-husain-college-of-engineering-and-technology-aligarh/"
-          target="_blank"
-        >
-          Google Developer Student Club, ZHCET
-        </Link>
-      </div>
-      <div className="achievments">
-        <h2>Achievements</h2>
-        <div className="cards">
-          <Card
-            head="Android Study Jam - GDSC ZHCET & AMU"
-            body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!"
-            showBtn={true}
-          />
-          <Card
-            head="M.A.Z.E. Web Development - Winner"
-            body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!"
-          />
-          <Card
-            head="M.A.Z.E. Competitive Programming - Winner"
-            body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!"
-          />
-        </div>
-        <div className="cards">
-          {/* <Card
-            head="Android Study Jam - GDSC ZHCET & AMU"
-            body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!"
-            showBtn={true}
-          />
-          <Card
-            head="M.A.Z.E. Web Development - Winner"
-            body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!"
-          /> */}
-          <Card
-            head="Date-a-Thon (PROMETEO3.0 IIT Jodhpur) - 5th Rank"
-            body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis impedit dicta provident aspernatur ipsa, neque et delectus magni unde culpa natus laudantium molestias atque perspiciatis rem dolor nisi, mollitia velit ex pariatur fuga. Consequatur!"
-          />
-        </div>
+        There are many variations of passages of Lorem Ipsum available, but the
+        majority have suffered alteration in some form, by injected humour, or
+        randomised words which don't look even slightly believable. If you are
+        going to use a passage of Lorem Ipsum, you need to be sure there isn't
+        anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+        generators on the Internet tend to repeat predefined chunks as
+        necessary, making this the first true generator on the Internet. It uses
+        a dictionary of over 200 Latin words, combined with a handful of model
+        sentence structures, to generate Lorem Ipsum which looks reasonable. The
+        generated Lorem Ipsum is therefore always free from repetition, injected
+        humour, or non-characteristic words etc. There are many variations of
+        passages of Lorem Ipsum available, but the majority have suffered
+        alteration in some form, by injected humour, or randomised words which
+        don't look even slightly believable. If you are going to use a passage
+        of Lorem Ipsum, you need to be sure there isn't anything embarrassing
+        hidden in the middle of text. All the Lorem Ipsum generators on the
+        Internet tend to repeat predefined chunks as necessary, making this the
+        first true generator on the Internet. It uses a dictionary of over 200
+        Latin words, combined with a handful of model sentence structures, to
+        generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum
+        is therefore always free from repetition, injected humour, or
+        non-characteristic words etc. humour, or non-characteristic words etc.
+        There are many variations of passages of Lorem Ipsum available, but the
+        majority have suffered alteration in some form, by injected humour, or
+        randomised words which don't look even slightly believable. If you are
+        going to use a passage of Lorem Ipsum, you need to be sure there isn't
+        anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+        generators on the Internet tend to repeat predefined chunks as
+        necessary, making this the first true generator on the Internet. It uses
+        a dictionary of over 200 Latin words, combined with a handful of model
+        sentence structures, to generate Lorem Ipsum which looks reasonable. The
+        generated Lorem Ipsum is therefore always free from repetition, injected
+        humour, or non-characteristic words etc.
       </div>
     </>
   );

@@ -6,7 +6,6 @@ function Home() {
   return (
     <div className="home">
       <Navbar />
-      <h1 className="head">Aligarh Diaries</h1>
     </div>
   );
 }

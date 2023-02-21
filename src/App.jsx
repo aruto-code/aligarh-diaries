@@ -6,7 +6,7 @@ import Feedback from "./Components/Feedback";
 import News from "./Components/News";
 import Tourism from "./Components/Tourism";
 import "./App.css";
-import Navbar from "./Components/Navbar";
+import Dashboard from "./Components/Dashboard";
 
 function App() {
   return (
@@ -18,10 +18,13 @@ function App() {
           <Route exact path="/feedback" element={<Feedback />}></Route>
           <Route exact path="/news" element={<News />}></Route>
           <Route exact path="/tourism" element={<Tourism />}></Route>
+          <Route exact path="/dashboard" element={<Dashboard />}></Route>
         </Routes>
       </BrowserRouter>
-      <hr style={{ color: "#9c9c9c" }} />
-      <div className="foot">&copy;Nagar Nigam Aligarh, 2023</div>
+      <hr color="#fff" />
+      <div className="foot" style={{ color: "white" }}>
+        &copy;Nagar Nigam Aligarh, 2023
+      </div>
     </>
   );
 }

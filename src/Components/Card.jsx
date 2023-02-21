@@ -7,7 +7,7 @@ function Card(props) {
       <h2 className="ach-head">{props.head}</h2>
       <div className="ach-body">{props.body}</div>
       {props.showBtn ? (
-        <button className="btn">View Credential</button>
+        <button className="btn">{props.btnContent}</button>
       ) : (
         <button className="btn">No Credential Associated</button>
       )}

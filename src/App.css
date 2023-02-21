@@ -1,10 +1,10 @@
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0;
   text-align: center;
 }
-
+/* 
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -31,15 +31,15 @@
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
+} */
 
 .card {
   padding: 2em;
 }
 
-.read-the-docs {
+/* .read-the-docs {
   color: #888;
-}
+} */
 
 .head {
   font-size: 40px;
@@ -82,7 +82,7 @@
 
 .card {
   width: 20vw;
-  margin: auto;
+  margin: 1rem 2rem;
   border: 1px solid rgb(190, 190, 190);
   border-radius: 5px;
 }
@@ -98,7 +98,7 @@
 }
 
 body {
-  background: url('./assets/bg.jpg');
+  background: url("./assets/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -106,8 +106,29 @@ body {
 }
 
 .navbar {
-  top:0;
   background: #fff;
-  margin: 0;
-  padding: 0.6rem;
+  margin: 1rem auto;
+  padding: 0.1rem;
+  width: 70vw;
+}
+
+.navbar img {
+  width: 4rem;
+  margin-right: 2rem;
+}
+
+.head {
+  background-color: #fff;
+}
+
+.about {
+  background: white;
+  width: 90vw;
+  padding: 1rem;
+}
+
+.dashboard {
+  background: #fff;
+  width: 100%;
+  height: 100%;
 }
