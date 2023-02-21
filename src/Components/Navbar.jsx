@@ -2,8 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.svg";
 import "../App.css";
+import { useAuth0 } from "@auth0/auth0-react";
 
 function Navbar() {
+  const { user, loginWithRedirect, logout, isAuthenticated } = useAuth0();
   return (
     <nav className="navbar links">
       <ul>
@@ -21,10 +23,28 @@ function Navbar() {
           <Link to="/feedback">Feedback</Link>
         </li> */}
         <li>
-          <Link to="/news">News and Updates</Link>
+          <Link to="/comingsoon">News and Updates</Link>
         </li>
+        {isAuthenticated && (
+          <Link to="/dashboard">
+            <button className="btn">Dashboard</button>
+          </Link>
+        )}
         <li>
-          <Link to="/login">Login</Link>
+          {isAuthenticated ? (
+            <button
+              className="btn"
+              onClick={() =>
+                logout({ logoutParams: { returnTo: window.location.origin } })
+              }
+            >
+              Log Out
+            </button>
+          ) : (
+            <button className="btn" onClick={() => loginWithRedirect()}>
+              Log In
+            </button>
+          )}
         </li>
       </ul>
     </nav>
