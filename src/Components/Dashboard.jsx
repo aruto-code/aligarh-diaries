@@ -8,21 +8,43 @@ function Dashboard() {
     <div className="dashboard">
       <Navbar />
       <div className="cards">
-        <Card head="Your Profile" showBtn={true} btnContent="View or Edit" />
+        <Card
+          head="Your Profile"
+          showBtn={true}
+          btnContent="View or Edit"
+          linkto="/comingsoon"
+        />
         <Card
           head="Electricity Bills"
           showBtn={true}
           btnContent="Check Bills"
+          linkto="/comingsoon"
         />
-        <Card head="Document Locker" showBtn={true} btnContent="Open Locker" />
+        <Card
+          head="Document Locker"
+          showBtn={true}
+          btnContent="Open Locker"
+          linkto="/comingsoon"
+        />
       </div>
       <div className="cards">
-        <Card head="Legal Advice" showBtn={true} btnContent="Consult a Lawer" />
-        <Card head="Lodge a Grievance" showBtn={true} btnContent="Feedback" />
+        <Card
+          head="Legal Advice"
+          showBtn={true}
+          btnContent="Consult a Lawer"
+          linkto="/comingsoon"
+        />
+        <Card
+          head="Lodge a Grievance"
+          showBtn={true}
+          btnContent="Feedback"
+          linkto="/comingsoon"
+        />
         <Card
           head="Government Schemes"
           showBtn={true}
           btnContent="Check Participation"
+          linkto="/comingsoon"
         />
       </div>
     </div>
