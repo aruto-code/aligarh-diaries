@@ -17,9 +17,9 @@ function Navbar() {
         <li>
           <Link to="/about">About Aligarh</Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/feedback">Feedback</Link>
-        </li>
+        </li> */}
         <li>
           <Link to="/news">News and Updates</Link>
         </li>
