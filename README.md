@@ -61,10 +61,7 @@ Clone the repository
 Open the terminal in the root directory of the cloned repository
 </li>
 <li>
-Run 
-<code>
-npm install
-</code>
+Run <code>npm install</code>
 </li>
 <li>
 Once the above command finishes executing, create a <code>config.json</code> in the root directory and add the following code:
