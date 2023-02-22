@@ -8,7 +8,34 @@ function TouristSpots() {
   return (
     <>
       <Navbar />
-      <div className="about">
+      <div className="about cards">
+        <TouristCard
+          head="Khereshwar Temple"
+          img={khereshwar}
+          btnContent="Visit"
+        />
+        <TouristCard
+          head="Khereshwar Temple"
+          img={khereshwar}
+          btnContent="Visit"
+        />
+        <TouristCard
+          head="Khereshwar Temple"
+          img={khereshwar}
+          btnContent="Visit"
+        />
+      </div>
+      <div className="about cards">
+        <TouristCard
+          head="Khereshwar Temple"
+          img={khereshwar}
+          btnContent="Visit"
+        />
+        <TouristCard
+          head="Khereshwar Temple"
+          img={khereshwar}
+          btnContent="Visit"
+        />
         <TouristCard
           head="Khereshwar Temple"
           img={khereshwar}
