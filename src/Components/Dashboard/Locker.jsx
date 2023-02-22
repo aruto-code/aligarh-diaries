@@ -5,6 +5,9 @@ import Navbar from "../Navbar.jsx";
 import photo from "../../assets/Photo.jpeg";
 import pan from "../../assets/PAN.jpeg";
 import cv from "../../assets/CV.jpeg";
+import ms from "../../assets/ms.jpeg";
+import certificate from "../../assets/certificate.jpg";
+import aadhar from "../../assets/aadhar.jpg";
 import { useAuth0 } from "@auth0/auth0-react";
 
 function isUser() {
@@ -24,17 +27,26 @@ function Locker() {
           {isUser ? (
             <>
               <DashCard
-                head="Photo"
-                img={photo}
+                head="Marksheet"
+                img={ms}
                 btnContent="View"
-                linkto={photo}
+                linkto={ms}
               />
-              <DashCard head="PAN" img={pan} btnContent="View" linkto={pan} />
-              <DashCard head="CV" img={cv} btnContent="View" linkto={cv} />
+              <DashCard
+                head="Certificate"
+                img={certificate}
+                btnContent="View"
+                linkto={certificate}
+              />
+              <DashCard
+                head="Aadhar"
+                img={aadhar}
+                btnContent="View"
+                linkto={aadhar}
+              />
             </>
           ) : (
             <>
-              <div className="id"></div>
               <DashCard
                 head="Photo"
                 img={photo}
@@ -46,6 +58,7 @@ function Locker() {
             </>
           )}
         </div>
+        <button className="btn">Upload Documents</button>
       </div>
     </>
   );
