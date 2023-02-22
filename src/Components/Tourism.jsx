@@ -41,7 +41,7 @@ function Tourism() {
           linkto="/tourism/market"
         />
         <Card
-          head="Business Areas"
+          head="Clothing"
           showBtn={true}
           btnContent="Visit"
           linkto="/tourism/business"
