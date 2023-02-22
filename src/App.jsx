@@ -8,6 +8,12 @@ import Tourism from "./Components/Tourism";
 import "./App.css";
 import Dashboard from "./Components/Dashboard";
 import ComingSoon from "./Components/ComingSoon";
+import Amu from "./Components/Tourism/Amu";
+import Banks from "./Components/Tourism/Banks";
+import Business from "./Components/Tourism/Business";
+import Hotels from "./Components/Tourism/Hotels";
+import Market from "./Components/Tourism/Market";
+import TouristSpots from "./Components/Tourism/TouristSpots";
 
 function App() {
   return (
@@ -21,6 +27,12 @@ function App() {
           <Route exact path="/tourism" element={<Tourism />}></Route>
           <Route exact path="/dashboard" element={<Dashboard />}></Route>
           <Route exact path="/comingsoon" element={<ComingSoon />}></Route>
+          <Route exact path="/tourism/amu" element={<Amu />}></Route>
+          <Route exact path="/tourism/banks" element={<Banks />}></Route>
+          <Route exact path="/tourism/business" element={<Business />}></Route>
+          <Route exact path="/tourism/hotels" element={<Hotels />}></Route>
+          <Route exact path="/tourism/market" element={<Market />}></Route>
+          <Route exact path="/tourism/spots" element={<TouristSpots />}></Route>
         </Routes>
       </BrowserRouter>
       <hr color="#fff" />
