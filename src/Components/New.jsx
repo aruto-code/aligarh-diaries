@@ -1,11 +1,11 @@
 import React,{useState} from "react";
 import axios from 'axios';
 
-function  ComingSoon(){
+function  New(){
 
   const[data,setData] = useState([])
   const getNews =() =>{
-    axios.get(`https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=2fc86ba57563490b9145c6ed8065e60b`)
+    axios.get(`https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=2fc86ba57563490b9145c6ed8065e60b`)
     .then((response) => {
       //console.log(response);
       setData(response.data.articles)
@@ -45,7 +45,7 @@ function  ComingSoon(){
   );
 }
 
-export default  ComingSoon;
+export default  New;
 
 // import Navbar from "./Navbar";
 // import axios from 'axios';

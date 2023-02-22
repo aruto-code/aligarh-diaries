@@ -23,7 +23,7 @@ function Navbar() {
           <Link to="/feedback">Feedback</Link>
         </li> */}
         <li>
-          <Link to="/comingsoon">News and Updates</Link>
+          <Link to="/new">News and Updates</Link>
         </li>
         {isAuthenticated && (
           <Link to="/dashboard">

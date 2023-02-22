@@ -8,6 +8,7 @@ import Tourism from "./Components/Tourism";
 import "./App.css";
 import Dashboard from "./Components/Dashboard";
 import ComingSoon from "./Components/ComingSoon";
+import New from "./Components/New";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/tourism" element={<Tourism />}></Route>
           <Route exact path="/dashboard" element={<Dashboard />}></Route>
           <Route exact path="/comingsoon" element={<ComingSoon />}></Route>
+          <Route exact path="/new" element={<New />}></Route>
         </Routes>
       </BrowserRouter>
       <hr color="#fff" />

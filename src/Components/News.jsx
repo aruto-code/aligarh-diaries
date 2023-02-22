@@ -1,9 +1,11 @@
 import React from "react";
 
-function Feedback() {
-  return(
-    <></>
-  )
+class  Feedback extends React.Component{
+  render(){
+    return(
+      <><h1>Call API here</h1></>
+    )
+  }
 }
 
 export default Feedback
