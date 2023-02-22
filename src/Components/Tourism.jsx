@@ -12,19 +12,19 @@ function Tourism() {
           head="Tourist Spots"
           showBtn={true}
           btnContent="View Places"
-          linkto="/comingsoon"
+          linkto="/tourism/spots"
         />
         <Card
           head="Aligarh Muslim University"
           showBtn={true}
           btnContent="Visit"
-          linkto="/comingsoon"
+          linkto="/tourism/amu"
         />
         <Card
           head="Hotels & Restaurants"
           showBtn={true}
           btnContent="View"
-          linkto="/comingsoon"
+          linkto="/tourism/hotels"
         />
       </div>
       <div className="cards">
@@ -32,19 +32,19 @@ function Tourism() {
           head="Banks and ATMs"
           showBtn={true}
           btnContent="Find"
-          linkto="/comingsoon"
+          linkto="/tourism/banks"
         />
         <Card
           head="Market Areas"
           showBtn={true}
           btnContent="Visit"
-          linkto="/comingsoon"
+          linkto="/tourism/market"
         />
         <Card
           head="Business Areas"
           showBtn={true}
           btnContent="Visit"
-          linkto="/comingsoon"
+          linkto="/tourism/business"
         />
       </div>
     </div>

@@ -8,13 +8,24 @@ import Tourism from "./Components/Tourism";
 import "./App.css";
 import Dashboard from "./Components/Dashboard";
 import ComingSoon from "./Components/ComingSoon";
+<<<<<<< HEAD
 import New from "./Components/New";
+=======
+import Amu from "./Components/Tourism/Amu";
+import Banks from "./Components/Tourism/Banks";
+import Business from "./Components/Tourism/Business";
+import Hotels from "./Components/Tourism/Hotels";
+import Market from "./Components/Tourism/Market";
+import TouristSpots from "./Components/Tourism/TouristSpots";
+import Locker from "./Components/Dashboard/Locker";
+>>>>>>> 0f9450aa44153af922b6b864cc949f2bc0a820fe
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
+          {/* Basic Routes */}
           <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/about" element={<About />}></Route>
           <Route exact path="/feedback" element={<Feedback />}></Route>
@@ -22,7 +33,21 @@ function App() {
           <Route exact path="/tourism" element={<Tourism />}></Route>
           <Route exact path="/dashboard" element={<Dashboard />}></Route>
           <Route exact path="/comingsoon" element={<ComingSoon />}></Route>
+<<<<<<< HEAD
           <Route exact path="/new" element={<New />}></Route>
+=======
+
+          {/* Tourism Routes */}
+          <Route exact path="/tourism/amu" element={<Amu />}></Route>
+          <Route exact path="/tourism/banks" element={<Banks />}></Route>
+          <Route exact path="/tourism/business" element={<Business />}></Route>
+          <Route exact path="/tourism/hotels" element={<Hotels />}></Route>
+          <Route exact path="/tourism/market" element={<Market />}></Route>
+          <Route exact path="/tourism/spots" element={<TouristSpots />}></Route>
+
+          {/* Dashboard Routes */}
+          <Route exact path="/dashboard/locker" element={<Locker />}></Route>
+>>>>>>> 0f9450aa44153af922b6b864cc949f2bc0a820fe
         </Routes>
       </BrowserRouter>
       <hr color="#fff" />
