@@ -16,6 +16,7 @@ import Hotels from "./Components/Tourism/Hotels";
 import Market from "./Components/Tourism/Market";
 import TouristSpots from "./Components/Tourism/TouristSpots";
 import Locker from "./Components/Dashboard/Locker";
+import Bills from "./Components/Dashboard/Bills";
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
 
           {/* Dashboard Routes */}
           <Route exact path="/dashboard/locker" element={<Locker />}></Route>
+          <Route exact path="/dashboard/bills" element={<Bills />}></Route>
         </Routes>
       </BrowserRouter>
       <hr color="#fff" />

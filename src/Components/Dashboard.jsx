@@ -18,7 +18,7 @@ function Dashboard() {
           head="Electricity Bills"
           showBtn={true}
           btnContent="Check Bills"
-          linkto="/comingsoon"
+          linkto="/dashboard/bills"
         />
         <Card
           head="Document Locker"
