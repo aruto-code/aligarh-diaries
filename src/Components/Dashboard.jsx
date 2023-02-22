@@ -24,7 +24,7 @@ function Dashboard() {
           head="Document Locker"
           showBtn={true}
           btnContent="Open Locker"
-          linkto="/comingsoon"
+          linkto="/dashboard/locker"
         />
       </div>
       <div className="cards">
